@@ -61,3 +61,6 @@ google_analytics:
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue
 collections: [sections]
+=======
+theme: jekyll-theme-slate
+>>>>>>> 11d211fe99d285f9c13bc522d255df99244fc366

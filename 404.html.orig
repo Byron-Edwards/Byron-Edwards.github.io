@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+---
+title: 404 Error
+layout: page
+icon: fa-unlink
+permalink: /404
+hide: true
+robots: noindex, nofollow
+canonical: false
+---
+<p>The requested page could not be found.</p>
+=======
+Hey 404!
+>>>>>>> 11d211fe99d285f9c13bc522d255df99244fc366
