@@ -1,6 +1,6 @@
 ---
-title: Reading List
-subtitle: a list of books I read
+title: Slash
+subtitle: Slashs in life
 layout: "page"
 icon: fa-book
 order: 3
