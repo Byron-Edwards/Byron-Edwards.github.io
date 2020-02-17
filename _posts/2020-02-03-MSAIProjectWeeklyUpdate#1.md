@@ -1,5 +1,5 @@
 ---
-title: NTU Weekly Progress Report 20200203
+title: MSAI Project weekly update 20200203
 author: Byron
 layout: post
 ---
