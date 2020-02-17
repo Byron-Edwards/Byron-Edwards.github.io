@@ -1,5 +1,5 @@
 ---
-title: NTU Weekly Progress Report 20200217
+title: NTU Weekly Progress Report 20200203
 author: Byron
 layout: post
 ---
@@ -12,7 +12,7 @@ layout: post
 - Paper read:
   - [A Review of Cooperative Multi-Agent Deep Reinforcement Learning](https://arxiv.org/abs/1908.03963)
   - [On Multi-Agent Learning in Team Sports Games](https://arxiv.org/abs/1906.10124)
-  - [Winning Isn’t Everything: Enhancing Game Development with Intelligent Agents](https://arxiv.org/abs/1903.10545)  
+  - [Winning Isn’t Everything: Enhancing Game Development with Intelligent Agents](https://arxiv.org/abs/1903.10545)
 
 ### Ideas
 
@@ -23,17 +23,23 @@ layout: post
 Basic
 
 - Q: What's the core difference between value iteration and policy iteration in MDP?
+- A: Both of them are based on the dynamic programming
+- Q: Can pytorch be used for Java?
+- A: No
 - Q: on-policy traning and off-policy training
-- Q: How to better understand the dimension in pytorch
-- Q: Can pytorch be used for Java Programming?
-- Q: Pytorch distributed (multi node and multi GPU) training
+- A: refer to Q-learning and SASAR
 
 Project related
 
 - Q: Policy understanding of model-free DRL? Is it aim to address the pain point of sparse reward, huge search space.
+- A: Policy understanding of the DRL is trying to mapping/compress the state-action sequences into low dimensional vector. In an adversarial environment, the low dimensional representation of the adversarial agent (rule based) will generally help our learning agent converage faster during training. it could help our learning agent perform fast, dynamic and accurate response.
 - Q: Will the hieratical RL, imitation Learning help on this target?
-- Q: If we finaly want to used the so called understood policy to accelarate the training process, do it means that we actually build the model of the environment?
+- A: No, they are different study field
 
 ### Next Step
 
 - Complete the Multi-agent Assigment [literature review](https://ntulearn.ntu.edu.sg/bbcswebdav/pid-1959486-dt-content-rid-9994760_1/courses/19S2-AI6125/assignment_1.pdf)(due by 2020/02/23)
+- Go through the paper, blog and related materials mentioned by Dr. Zheng
+  - [Variational Autoencoders for Opponent Modeling in Multi-Agent Systems](https://arxiv.org/abs/2001.10829)
+  - [A Deep Bayesian Policy Reuse Approach Against Non-Stationary Agents](http://papers.nips.cc/paper/7374-a-deep-bayesian-policy-reuse-approach-against-non-stationary-agents.pdf)
+  - [From Autoencoder to Beta-VAE](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)
