@@ -18,3 +18,9 @@ layout: post
   - Pathfinding to provide the detailed moving action
   - Task Priority
   - Stradgy
+
+### Questions for TA
+
+- Any time limitation on each time step
+- it is not fair to given out the random start point
+- we has to modify the environment class to implement our customized agent
