@@ -52,16 +52,21 @@ Basic
 - Q: Why it says that the max operation in the bellman equation would lead to the suboptimal policies
 - Q: How to understand policy gradient
 - Q: The difference between on-policy(A2C) and off-policy(DQN)
+- A: on-policy using the chosen action to update, while off-policy not neccesarily use the chosen action to update
 - Q: what is the typicall RL higher level library?
+- A: For the research, most of time need to build from scratch because we are facing the condition others never met before
 - Q: Any more GPU i can use?
+- A: Pending
 
 Project related
 
 - If one feasible method is to map the sequential decision of a opponent policy to low dimentional representation, besides the VAE, could we try other dimension reduction method? unsupervised learning?
-- Q: If one paper is an imporvement based on another paper, how to make sure that the replication is accurate, specially when need to compare the performance
-- Q: Why can identify the opponent policy only based on the cumulative reward during one eposide? (BRP related)
-- Q: why some reference is not appeaered in the paper such as [17,19]
+- A: VAE itself belong to the unsupervised learning
+- Q: If one paper is an imporvement based on another paper, how to make sure that the replication is accurate, specially when need to compare the performance?
+- A: Some have open source code, and some is easy to reimplement
 
 ### Next Step
 
-- Finish the course project for the AI Introduction (RL relatied) and Multi-agent project
+- Finish the course project for the AI Introduction (RL relatied)
+- Finish the course project for multi-agent project
+- Research about the Gym-soccer environment
